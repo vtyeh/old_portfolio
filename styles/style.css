@@ -1,0 +1,125 @@
+/* font-family: 'Poiret One', cursive;
+font-family: 'Rajdhani', sans-serif;
+font-family: 'Arapey', serif; */
+
+body {
+    opacity: 1;
+    transition: 1.2s opacity;
+    background-image: url(zen.jpg);
+    background-repeat: repeat;
+    background-size: cover; 
+}
+  
+body.fade {
+    opacity: 0;
+    transition: none;
+}
+
+.navbar {
+    background-color: transparent; 
+    border: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: white;
+    border-radius: 10px;
+    opacity: 0.5;
+    /* color: white; */
+}
+
+.navbar-brand{
+    font-family: 'Poiret One', cursive;
+} 
+
+#about {
+    background-image: url("../images/lights.svg");
+    background-color: transparent;
+    background-repeat: no-repeat;
+}
+
+#aboutme {
+    margin-top: 128px;
+    margin-left: 110px;
+    border-radius: 300px;
+}
+
+#aboutmetext {
+    float: right;
+    margin-top: 95px;
+    margin-right: 100px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 17px;
+}
+
+#contactInfo {
+    font-size: 18px;
+}
+
+h2,h3 {
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+}
+
+.panel-body {
+    padding: 40px;
+}
+
+.panel {
+    border-radius: 40px;
+}
+
+h1 {
+    font-family: 'Poiret One', cursive;
+    margin-top: 222px;
+    margin-right: 40px;
+    float: right;
+    color: white;
+    font-size: 69px;
+}
+
+li {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 18px;
+}
+
+#next {
+    float:right;
+    margin-right: 15px;
+    margin-top: 260px;
+}
+
+#previous {
+    float: left;
+    margin-left: 15px;
+    margin-top: 260px;
+}
+
+#blog {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+}
+
+@media (max-width: 800px) {
+    body {
+        opacity: 1;
+        transition: 2s opacity;
+        background-image: url(zen.jpg);
+        background-repeat: repeat;
+        background-size: 200%;
+    }
+      
+    body.fade {
+        opacity: 0;
+        transition: none;
+    }
+
+    h1 {
+        float: none;
+        text-align: center;
+    }
+
+}
