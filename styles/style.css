@@ -98,8 +98,8 @@ a {
 }
 
 #aboutme {
-    margin-top: 128px;
-    margin-left: 110px;
+    margin-top: 142px;
+    margin-left: 108px;
     border-radius: 300px;
     max-width: 100%;
     height: auto;
@@ -221,32 +221,28 @@ li {
     }
 
     #about {
-        background-size: 150%;
-        margin: 10px;
+        background-image: none;
     }
 
-    #aboutme {
-        margin-left: 87px;
-        margin-top: 65px;
-        width: 255px;
-        height: auto;
-        opacity: 1;
+    #aboutme{
+        margin: 20px;
+        margin-left: 30px;
     }
 
     #aboutmetext{
         float: none;
         margin-left: 70px;
         font-size: 15px;
-        padding-left: 0;
+        padding: 0;
     }
-/* 
+
     #contactInfo img {
-        width: 16px;
+        width: 18px;
         height: auto;
-    } */
+    }
 
     .projectImages {
-        width: 300px;
+        width: 275px;
         height: auto;
     }
 
