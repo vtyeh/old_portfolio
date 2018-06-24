@@ -220,6 +220,11 @@ li {
         background-size: 320%;
     }
 
+    .cl-effect-1 a::before,
+    .cl-effect-1 a::after {
+        display: none;
+    }
+
     #about {
         background-image: none;
     }
