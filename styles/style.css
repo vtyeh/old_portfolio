@@ -226,18 +226,19 @@ li {
 
     #aboutme{
         margin: 20px;
-        margin-left: 30px;
+        margin-left: 28px;
     }
 
     #aboutmetext{
         float: none;
         margin-left: 70px;
-        font-size: 15px;
+        font-size: 18px;
         padding: 0;
+        text-align: left;
     }
 
     #contactInfo img {
-        width: 18px;
+        width: 20px;
         height: auto;
     }
 
