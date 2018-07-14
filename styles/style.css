@@ -76,6 +76,10 @@ a {
     border: none;
 }
 
+#myNavbar {
+    color: white;
+}
+
 .navbar-default .navbar-toggle .icon-bar {
     background-color: white;
 }
