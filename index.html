@@ -1,70 +1,279 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
-    <!-- Required meta tags -->
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
     <title>venessa.yeh</title>
 
-    <!-- Bootstrap CSS -->
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous"> -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Arapey|Poiret+One|Rajdhani" rel="stylesheet">
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/creative.css" rel="stylesheet">
+
   </head>
-  <body>
-    <script>document.body.className = 'fade';</script>
+
+  <body id="page-top">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>                        
-                </button>
-            <!-- <a class="navbar-brand" href="portfolio.html">venessa.yeh</a> -->
-            </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav navbar-right">
-                <!-- <li class="active"><a href="#">Home</a></li> -->
-                <li><a href="aboutme.html">About Me</a></li>
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="codePages/code.html">Code <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="codePages/code.html">Plotly.js: Belly Button Biodiversity</a></li>
-                        <li><a href="codePages/code2.html">Leaflet.js: Earthquakes</a></li>
-                        <li><a href="codePages/code3.html">Tweepy: Social Analytics</a></li>
-                        <li><a href="codePages/code4.html">JavaScript: ALIENS-R-US</a></li>
-                        <li><a href="codePages/code5.html">Tableau: citibike NYC</a></li>
-                        <li><a href="codePages/code6.html">D3.js: Data Journalism</a></li>
-                    </ul>
-                </li>
-                <li><a href="thoughts.html">Thoughts</a></li>
-                <li><a href="photography.html">Photography</a></li>
-            </ul>
-            </div>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">venessa.yeh</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#services">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
 
-    <!-- Main Content -->
-    <h1 class="cl-effect-1"><a href="aboutme.html" id="flux">in constant flux.</a></h1>
-    <script>
-        document.addEventListener("DOMContentLoaded", function(e) {
-            document.body.className = '';
-        });
-    </script>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <header class="masthead text-white d-flex">
+      <div class="container my-auto">
+        <div class="row">
+          <div class="col-lg-12 mx-auto">
+              <h1 class="cl-effect-1"><a class="js-scroll-trigger" href="#about" id="flux">in constant flux.</a></h1>
+            <!-- <hr> -->
+          </div>
+          <!-- <div class="col-lg-8 mx-auto">
+            <p class="text-faded mb-5">The best way to predict the future is to create it.</p>
+            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+          </div> -->
+        </div>
+      </div>
+    </header>
+
+    <section class="bg-primary" id="about">
+      <div class="container">
+        <div class="row">
+            <div class="col-lg-6 mx-auto text-center">
+                <img src="img/venessa.jpg" height="auto" width="400px" id="profile-pic">
+            </div>
+          <div class="col-lg-4 mx-auto">
+            <h2 class="section-heading text-white text-center">about me</h2>
+            <hr class="light my-4">
+            <p class="text-faded mb-4">hello! i'm venessa yeh. my hometown is in the cloudy sf bay area, but my heart is in the sunny beaches of southern california.</p>
+            <p class="text-faded mb-4">i am a: data analyst | sociologist | philosopher | writer | bibliophilic | cat lover</p>
+            <p class="text-faded mb-4">my mission is to bring together my sociological imagination and data analysis skills to explore and deepen the quality of human experiences.  </p>
+            <p class="text-faded mb-4">"The best way to predict the future is to create it."</p>
+            <div class="text-faded mb-4 text-center social-media">
+                <a href="https://www.linkedin.com/in/venessayeh/" target="_blank"><img src="img/linkedin-logo.png" width="20px" height="auto"></a>
+                <a href="https://github.com/vtyeh" target="_blank"><img src="img/github-logo.png" width="20px" height="auto"></a>
+                <a href="https://soundcloud.com/venessa-yeh" target="_blank"><img src="img/soundcloud-logo.png" width="20px" height="auto"></a>
+            </div>
+            <!-- <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Technical Skills</h2>
+            <hr class="my-4">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <img src="img/python.png" width="40px" height="auto">
+              <h3 class="mb-3">Python</h3>
+              <p class="text-muted mb-0">Flask, Pandas, Scikit-learn</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <img src="img/folder.png" width="40px" height="auto">
+              <h3 class="mb-3">Data Collection</h3>
+              <p class="text-muted mb-0">BeautifulSoup/Selenium</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <img src="img/database.png" width="40px" height="auto">
+              <h3 class="mb-3">Database Queries</h3>
+              <p class="text-muted mb-0">mySQL, MongoDB, PySpark</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <img src="img/line-chart.png" width="40px" height="auto">
+              <h3 class="mb-3">Data Visualization</h3>
+              <p class="text-muted mb-0">Tableau, JavaScript, Matplotlib, Seaborn</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="p-0" id="portfolio">
+      <div class="container-fluid p-0">
+        <div class="row no-gutters popup-gallery">
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/1.gif">
+              <img class="img-fluid" src="img/portfolio/thumbnails/1.gif" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Flask, Face Recognition (dlib/opencv2)
+                  </div>
+                  <div class="project-name">
+                    Meeting Impossible
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/2.gif">
+              <img class="img-fluid" src="img/portfolio/thumbnails/2.gif" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    D3.js, Data Journalism
+                  </div>
+                  <div class="project-name">
+                    D3Times
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/3.gif">
+              <img class="img-fluid" src="img/portfolio/thumbnails/3.gif" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Tableau
+                  </div>
+                  <div class="project-name">
+                    CitiBike NYC
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/4.gif">
+              <img class="img-fluid" src="img/portfolio/thumbnails/4.gif" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Pandas, Matplotlib
+                  </div>
+                  <div class="project-name">
+                    Pyber Ride Sharing Analysis
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/5.gif">
+              <img class="img-fluid" src="img/portfolio/thumbnails/5.gif" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    plotly.js, JSON APIs, Heroku
+                  </div>
+                  <div class="project-name">
+                    Belly Button Biodiversity
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/6.gif">
+              <img class="img-fluid" src="img/portfolio/thumbnails/6.gif" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    SciKit-Learn, Tableau, Heroku
+                  </div>
+                  <div class="project-name">
+                    House Price Predictions
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section class="bg-dark text-white">
+      <div class="container text-center">
+        <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
+        <a class="btn btn-light btn-xl sr-button" href="http://startbootstrap.com/template-overviews/creative/">Download Now!</a>
+      </div>
+    </section> -->
+
+    <section id="contact" class="bg-dark text-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading">Let's Get In Touch!</h2>
+            <hr class="my-4">
+            <p class="mb-5">I would love to grab coffee or tea with you.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 ml-auto text-center">
+            <img src="img/phone-call.png" width="28px" height="auto">
+            <p>650-219-6881</p>
+          </div>
+          <div class="col-lg-4 mr-auto text-center">
+            <img src="img/message.png" width="30px" height="auto">
+            <p>
+              <a href="mailto:vtyeh24@gmail.com">vtyeh24@gmail.com</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/creative.js"></script>
+
   </body>
+
 </html>
