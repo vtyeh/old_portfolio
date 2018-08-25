@@ -42,7 +42,7 @@
               <a class="nav-link js-scroll-trigger" href="#services">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+              <a class="nav-link js-scroll-trigger" href="#my-portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -57,12 +57,7 @@
         <div class="row">
           <div class="col-lg-12 mx-auto">
               <h1 class="cl-effect-1"><a class="js-scroll-trigger" href="#about" id="flux">in constant flux.</a></h1>
-            <!-- <hr> -->
           </div>
-          <!-- <div class="col-lg-8 mx-auto">
-            <p class="text-faded mb-5">The best way to predict the future is to create it.</p>
-            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
-          </div> -->
         </div>
       </div>
     </header>
@@ -85,7 +80,6 @@
                 <a href="https://github.com/vtyeh" target="_blank"><img src="img/github-logo.png" width="20px" height="auto"></a>
                 <a href="https://soundcloud.com/venessa-yeh" target="_blank"><img src="img/soundcloud-logo.png" width="20px" height="auto"></a>
             </div>
-            <!-- <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a> -->
           </div>
         </div>
       </div>
@@ -96,7 +90,7 @@
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading">Technical Skills</h2>
-            <hr class="my-4">
+            <hr id="hr-dark">
           </div>
         </div>
       </div>
@@ -134,129 +128,82 @@
       </div>
     </section>
 
-    <section class="p-0" id="portfolio">
-      <div class="container-fluid p-0">
-        <div class="row no-gutters popup-gallery">
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/1.gif">
-              <img class="img-fluid" src="img/portfolio/thumbnails/1.gif" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Flask, Face Recognition (dlib/opencv2)
-                  </div>
-                  <div class="project-name">
-                    Meeting Impossible
-                  </div>
-                </div>
-              </div>
-            </a>
+    <section class="bg-dark text-white" id="my-portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Portfolio</h2>
+            <hr>
           </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/2.gif">
-              <img class="img-fluid" src="img/portfolio/thumbnails/2.gif" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    D3.js, Data Journalism
-                  </div>
-                  <div class="project-name">
-                    D3Times
-                  </div>
-                </div>
-              </div>
-            </a>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 text-center">
+            <h5>Meeting Impossible</h5>
+            <p>Flask, Face Recognition (dlib/opencv2)</p>
+            <a href="https://github.com/vtyeh/meeting_impossible" target="_blank"><img class="img-fluid" src="img/portfolio/fullsize/1.gif" alt=""></a>
           </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/3.gif">
-              <img class="img-fluid" src="img/portfolio/thumbnails/3.gif" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Tableau
-                  </div>
-                  <div class="project-name">
-                    CitiBike NYC
-                  </div>
-                </div>
-              </div>
-            </a>
+          <div class="col-lg-6 text-center">
+            <h5>D3Times</h5>
+            <p>d3.js, data journalism</p>
+            <a href="https://github.com/vtyeh/d3times-data-journalism" target="_blank"><img class="img-fluid" src="img/portfolio/fullsize/2.gif" alt=""></a>
           </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/4.gif">
-              <img class="img-fluid" src="img/portfolio/thumbnails/4.gif" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Pandas, Matplotlib
-                  </div>
-                  <div class="project-name">
-                    Pyber Ride Sharing Analysis
-                  </div>
-                </div>
-              </div>
-            </a>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 text-center">
+            <h5>CitiBike NYC</h5>
+            <p>Tableau</p>
+            <a href="https://github.com/vtyeh/citibike-tableau-dashboard" target="_blank"><img class="img-fluid" src="img/portfolio/fullsize/3.gif" alt=""></a>
           </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/5.gif">
-              <img class="img-fluid" src="img/portfolio/thumbnails/5.gif" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    plotly.js, JSON APIs, Heroku
-                  </div>
-                  <div class="project-name">
-                    Belly Button Biodiversity
-                  </div>
-                </div>
-              </div>
-            </a>
+          <div class="col-lg-6 text-center">
+            <h5>Pyber Ride Sharing Analysis</h5>
+            <p>Pandas, Matplotlib</p>
+            <a href="https://github.com/vtyeh/matplotlib" target="_blank"><img class="img-fluid" src="img/portfolio/fullsize/4.gif" alt=""></a>
           </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/6.gif">
-              <img class="img-fluid" src="img/portfolio/thumbnails/6.gif" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    SciKit-Learn, Tableau, Heroku
-                  </div>
-                  <div class="project-name">
-                    House Price Predictions
-                  </div>
-                </div>
-              </div>
-            </a>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 text-center">
+            <h5>Belly Button Biodiversity</h5>
+            <p> plotly.js, JSON APIs, Heroku</p>
+            <a href="https://github.com/vtyeh/bellyButtonBiodiversity" target="_blank"><img class="img-fluid" src="img/portfolio/fullsize/5.gif" alt=""></a>
+          </div>
+          <div class="col-lg-6 text-center">
+            <h5>Wennya: House Price Predictions</h5>
+            <p>SciKit-Learn, Tableau, Heroku</p>
+            <a href="https://github.com/vtyeh/machine-learning-house-predictions" target="_blank"><img class="img-fluid" src="img/portfolio/fullsize/6.gif" alt=""></a>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- <section class="bg-dark text-white">
-      <div class="container text-center">
-        <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
-        <a class="btn btn-light btn-xl sr-button" href="http://startbootstrap.com/template-overviews/creative/">Download Now!</a>
-      </div>
-    </section> -->
-
-    <section id="contact" class="bg-dark text-white">
+    <section id="contact" class="bg-primary text-white">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
             <h2 class="section-heading">Let's Get In Touch!</h2>
             <hr class="my-4">
-            <p class="mb-5">I would love to grab coffee or tea with you.</p>
+            <p class="mb-5">If you have any questions, I would love to answer them.</p>
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-4 ml-auto text-center">
+          <div class="col-lg-3 ml-auto text-center">
             <img src="img/phone-call.png" width="28px" height="auto">
             <p>650-219-6881</p>
           </div>
-          <div class="col-lg-4 mr-auto text-center">
+          <div class="col-lg-3 mr-auto text-center">
             <img src="img/message.png" width="30px" height="auto">
             <p>
               <a href="mailto:vtyeh24@gmail.com">vtyeh24@gmail.com</a>
             </p>
+          </div>
+          <div class="col-lg-3 ml-auto text-center">
+            <a href="https://www.linkedin.com/in/venessayeh/"><img src="img/linkedin.png" width="28px" height="auto"></a>
+            <p>Connect with me.</p>
+          </div>
+          <div class="col-lg-3 ml-auto text-center">
+            <a href="https://github.com/vtyeh"><img src="img/github.png" width="28px" height="auto"></a>
+            <p>Check out my code.</p>
           </div>
         </div>
       </div>
